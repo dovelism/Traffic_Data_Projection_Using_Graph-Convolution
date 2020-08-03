@@ -5,8 +5,8 @@ import torch.nn as nn
 import torch.nn.init as init
 
 """
-    该.py 文件中实现了两种图卷积网络，GCN和ChebNet。
-    可以直接在train.py中修改模型模型和参数切换两种模型。
+    该.py 文件中实现了三种图卷积网络，GCN，ChebNet，GAT。
+    可以直接在train.py中修改模型模型和参数切换三种模型。
 
 """
 class ChebConv(nn.Module):
