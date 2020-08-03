@@ -1,4 +1,4 @@
-# Traffic_Data_Projection_Using_GCN
+# Traffic_Data_Projection_Using_Graph Convolution
 Using GCN and ChebNet implement traffic flow data prediction.
 
 The forecasting task of traffic flow in the city is a typical time series forecasting task. However, the difference from traditional time series analysis is that the city's sites present a graph structure. Therefore, the project uses several common graph convolution models to achieve the task of node traffic prediction. 
